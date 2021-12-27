@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startQuiz()">  
+            <h1 class="h1">QUIZ APPLICATION</h1>
+
+        <section class="mainBox">
+        
+        <section class="quizBox">
+                <section class ="header">
+                    <div>
+                        <p>
+                            userName:azalfa Riaz bhojani
+                        </p>
+                    </div>
+                    <div>
+                        <span id="min">1</span>
+                        <span>:</span>
+                        <span id ="sec">00</span>
+                    </div>
+                </section>
+
+
+            <div class="quizBody">
+                <div>
+                    <h4 id="question"></h4>
+                </div>
+                
+                    <li class="Quizoption"></li>
+                    <li class="Quizoption"></li>
+                    <li class="Quizoption"></li>
+                    <li class="Quizoption"></li>
+                </div>
+
+            <div class="footer">
+                <div id = "footerCounter">
+                    1/5
+
+                </div>
+                <div>
+                    <button id="nextBtn" onclick="nextQues()">NEXT QUES</button>
+                </div>
+
+
+            </div>
+        </section>
+    </section>
+
+         <!-- /////result/// -->
+    
+    <section id="resultBox" class="result">
+ <div class="typ">
+        <div>
+            <span><b>NAME :</b></span>
+            <span><b>AZALFA  RIAZ  BHOJANI</b></span>
+        </div><br> <br>
+
+        
+        <div>
+            <span><b>TOTaL QUES</b></span>
+            <span id="totalQues">:</span>
+        </div><br>
+        
+        <div>
+            <span><b>CORRECT</b></span>
+            <span id="correctAns">:</span>
+        </div><br>
+        
+        <div>
+            <span><b>WRONG</b></span>
+            <span id="wrongQues">:</span>
+        </div><br>
+    </div>
+    </section>
+
+</body>
+<script src="app.js"></script>
+</html>
